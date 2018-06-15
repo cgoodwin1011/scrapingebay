@@ -15,7 +15,8 @@
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.3",
     "mongoose": "^5.0.11",
-    "morgan": "^1.9.0"
+    "morgan": "^1.9.0",
+    "request": "^2.87.0"
   },
   "devDependencies": {},
   "repository": {
@@ -26,5 +27,6 @@
     "url": "https://github.com/cgoodwin1011/scrapingebay/issues"
   },
   "homepage": "https://github.com/cgoodwin1011/scrapingebay#readme",
+  "keywords": [],
   "description": ""
 }

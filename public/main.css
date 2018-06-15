@@ -1,0 +1,194 @@
+body {
+  background-color: rgb(155, 242, 248);
+  font-family: 'Montserrat', sans-serif;
+}
+
+#wrapper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+}
+
+button {
+  height: 2em;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 1em;
+  outline: none;
+  text-shadow: none;
+  border: 1px #3d67ac solid;
+  width: 120px;
+  box-sizing: border-box;
+  background-color: #BBB;
+  color: white;
+  background: linear-gradient(to bottom right, #3d67ac,  #3d67ac, #d64241);
+}
+
+button:hover {
+  border: 3px #3d67ac solid;
+  background: linear-gradient(to bottom right, #4e78bd, #4e78bd, #c53130);
+}
+
+button:active {
+  border: 3px #3d67ac solid;
+  /* background: linear-gradient(to bottom right, #2c569b, #c53130); */
+  color: green;
+  background: linear-gradient(to bottom right, #2c569b, #2c569b, #c53130);
+}
+
+#btn-cancel-A {
+  display: none;
+  /* color: #d64241; */
+  color: red;
+  background: none;
+  /* background-color: #ecb143; */
+  background-color: yellow;
+  
+}
+
+#btn-cancel-A:hover {
+  display: none;
+  /* color: #d64241; */
+  color: red;
+  background: none;
+  /* background-color: #ecb143; */
+  background-color: yellow;
+  
+}
+
+.btn-cancel-X {
+  display: none;
+  color: #d64241;
+  background: none;
+  /* background-color: #ecb143; */
+  background-color: yellow;
+}
+
+.btn-cancel-X:hover {
+  display: none;
+  color: #d64241;
+  background: none;
+  /* background-color: #ecb143; */
+  background-color: yellow;
+}
+
+#clear-all {
+  /* color: #ecb143; */
+  color: yellow;
+  background-color: rgb(214, 66, 65);
+}
+
+#ebay-logo {
+  width: 60%
+}
+
+.item-photo {
+  float: left;
+  vertical-align: bottom;
+  border: 1px black solid;
+  width: 33%;
+}
+
+#items {
+  display: inline-block;
+  overflow: auto;
+  width: 60%;
+  height: 700px;
+  border: 1px black solid;
+  padding: 10px;
+  background-color: #3d67ac;
+}
+
+#items div {
+  display: inline-block;
+  overflow: auto;
+  /* width: 60%; */
+  /* height: 700px; */
+  border: 1px black solid;
+  padding: 10px;
+  /* background-color: #3d67ac; */
+  background-color: rgb(155, 242, 248);
+}
+
+#items div div {
+  border: none;
+  padding: 0px;
+}
+
+#items div h2 {
+  font-size: 1.3em;
+}
+
+#items div h3 {
+  font-size: 1.3em;
+}
+
+.item-buttons {
+  border: 0px;
+  float: right;
+}
+
+.item-subtitle {
+  clear: both;
+  padding: 5px;
+}
+
+.item-price {
+  /* color: yellow; */
+  display: inline-block;
+  font-weight: bold;
+}
+
+#items div h2 {
+  /* display: inline-block; */
+  overflow: auto;
+  margin: 0px;
+  padding: 3px 7px;
+  /* width: 60%; */
+  /* height: 700px; */
+  /* border: 1px black solid; */
+  /* padding: 10px; */
+}
+
+#notes {
+  float: right;
+  width: 30%;
+  padding: 5px;
+}
+
+#notes h2 {
+  font-size: 1em;
+  margin: 5px;
+}
+
+#notes #titleinput {
+  font-size: 1em;
+  border: 1px black solid;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+#notes #bodyinput {
+  font-size: 1em;
+  border: 1px black solid;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+textarea,
+input {
+  display: block;
+  width: 100%;
+  background-color: pearl;
+}
+
+input {
+  height: 36px;
+  font-size: 24px;
+}
+
+textarea {
+  height: 200px;
+  font-size: 18px;
+}

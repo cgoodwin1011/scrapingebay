@@ -17,5 +17,14 @@
     "mongoose": "^5.0.11",
     "morgan": "^1.9.0"
   },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgoodwin1011/scrapingebay.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cgoodwin1011/scrapingebay/issues"
+  },
+  "homepage": "https://github.com/cgoodwin1011/scrapingebay#readme",
   "description": ""
 }

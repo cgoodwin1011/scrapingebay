@@ -36,14 +36,17 @@ $(document).on("click", "#scrape-now", () => {
           // Display the apropos information on the page
           $("#items")
             .append(
-              "<div id='D" + data[i]._id + "'data-id='" + data[i]._id + "' class='item-aux'>" +
+              "<div id='D" + data[i]._id + "'data-id='" + data[i]._id + "'>" +
               "<img class='item-photo' src=" + data[i].imgSource + " alt='auction item photo'/>" +
               "<h2><a href=" + data[i].link + " target='_blank'>" + data[i].title + "</a></h2>" +
-              "<br />" + data[i].subtitle +
-              "<br />" + data[i].price +
+              "<p class='item-subtitle'>" + data[i].subtitle + "</p>" +
+              "<p class='item-price'>" + data[i].price + "</p>" +
+              "<div class='item-buttons' style='float:right;text-align:right'>" +
               "<button class='btn-annotate' data-id='" + data[i]._id + "'>Annotate</button>" +
               "<button id='C" + data[i]._id + "' class='btn-delete-X' data-id='" + data[i]._id + "'>Delete</button>" +
-              "<button id='X" + data[i]._id + "' class='btn-cancel-X' data-id='" + data[i]._id + "'>Cancel</button></div>");
+              "<button id='X" + data[i]._id + "' class='btn-cancel-X' data-id='" + data[i]._id + "'>Cancel</button>" +
+              "</div>" +
+              "</div>")
         }
       });
       // location.reload();

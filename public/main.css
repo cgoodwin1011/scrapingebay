@@ -103,7 +103,7 @@ button:active {
 #items div {
   display: inline-block;
   overflow: auto;
-  /* width: 60%; */
+  width: 95%;
   /* height: 700px; */
   border: 1px black solid;
   padding: 10px;
@@ -114,6 +114,7 @@ button:active {
 #items div div {
   border: none;
   padding: 0px;
+  float:right;
 }
 
 #items div h2 {

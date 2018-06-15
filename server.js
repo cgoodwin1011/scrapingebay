@@ -32,7 +32,8 @@ app.use(
 app.use(express.static("public"));
 
 // Connect to the Mongo DB
-mongoose.connect("mongodb://localhost/ebayScraper");
+// mongoose.connect("mongodb://localhost/ebayScraper");
+mongoose.connect("mongodb://heroku_kqxh70dp:12arfqkbguodmuu8uognl1cl8j@ds261450.mlab.com:61450/heroku_kqxh70dp")
 
 // Routes
 
@@ -41,7 +42,7 @@ app.get("/scrape", function(req, res) {
   // grab the body of the html with axios
   // console.log("scraping....")
   request(
-    "https://www.ebay.com/b/Laptops-Netbooks/175672/bn_1648276LH_Auction=1",
+    "https://www.ebay.com/b/Laptops-Netbooks/175672/bn_1648276?LH_Auction=1",
     function(error, response, html) {
       // Load the HTML into cheerio and save it to a variable
       var $ = cheerio.load(html);

@@ -37,7 +37,9 @@ mongoose.connect("mongodb://heroku_kqxh70dp:12arfqkbguodmuu8uognl1cl8j@ds261450.
 
 // Routes
 
-app.get('/', function  () {});
+app.get('/', function() {
+  res.sendFile(index.html);
+});
 
 // A GET route for scraping the ebay website
 app.get("/scrape", function(req, res) {
